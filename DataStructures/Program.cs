@@ -10,7 +10,7 @@ namespace Utilities
     {
         static void Main(string[] args)
         {
-            //make new linkedlist and test all methods here
+            /*testing linked list*/
             LinkedList currList = new LinkedList(null);
             Node tmp = new Node(5, null);
             currList = currList.Insert(tmp, currList);
@@ -18,8 +18,14 @@ namespace Utilities
             currList = currList.Insert(tmp2, currList);
             Node tmp3 = new Node(9, null);
             currList = currList.Insert(tmp3, currList);
+            currList = currList.Delete(0, currList);
 
             currList.PrintList(currList);
+
+            /*testing BST*/
+
+
+            /*testing graph*/
         }
     }
 }
