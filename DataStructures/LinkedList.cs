@@ -8,8 +8,8 @@ namespace Utilities
 {
     class LinkedList
     {
-        public Node Head { get; set; }
-        public Node Tail { get; set; }
+        private Node Head { get; set; }
+        private Node Tail { get; set; }
 
         public LinkedList(Node head)
         {
