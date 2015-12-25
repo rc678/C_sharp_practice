@@ -8,9 +8,9 @@ namespace Utilities
 {
     class BSTNode
     {
-        private int Data { get; set; }
-        private BSTNode Left { get; set; }
-        private BSTNode Right { get; set;  }
+        public int Data { get; set; }
+        public BSTNode Left { get; set; }
+        public BSTNode Right { get; set;  }
 
         public BSTNode(int data, BSTNode leftChild, BSTNode rightChild)
         {
